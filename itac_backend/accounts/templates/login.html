@@ -1,0 +1,29 @@
+
+{% load static %}
+<!--  Charge le tag 'static' pour pouvoir inclure des fichiers CSS, JS, images, etc. -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>  <!--  Titre de la page affiché dans l'onglet du navigateur -->
+    
+    <!--  Lien vers le fichier CSS situé dans le dossier 'static/css/style.css' -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>Login Page</h1> <!--  Titre principal de la page -->
+
+    <!--  Formulaire d’authentification -->
+    <form method="post">
+        {% csrf_token %}
+        <!--  Jeton CSRF pour la sécurité contre les attaques de type Cross Site Request Forgery -->
+
+        <!--  Champ pour le nom d'utilisateur -->
+        Username: <input type="text" name="username"><br>
+
+        <!--  Champ pour le mot de passe -->
+        Password: <input type="password" name="password"><br>
+        <input type="submit" value="Login">
+    </form>
+
+</body>
+</html>

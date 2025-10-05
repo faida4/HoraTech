@@ -1,0 +1,296 @@
+.professor-container {
+  text-align: center;
+  padding: 20px;
+
+  
+}
+
+.professor-form-actions button,
+.add-professor-button {
+  background-color: #34495e;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+.professor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 20px;
+}
+
+.professor-card {
+  background-color: #ffffff;
+  border-left: 5px solid #34495e;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out;
+}
+
+.professor-card:hover {
+  transform: scale(1.02);
+}
+
+.professor-image {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.professor-info {
+  flex-grow: 1;
+}
+
+.professor-info h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #34495e;
+  font-weight: bold;
+}
+
+.professor-info p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.professor-info a {
+  color:  #34495e;
+  text-decoration: none;
+}
+
+.professor-info a:hover {
+  text-decoration: underline;
+}
+
+.professor-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.edit {
+  background-color:  #34495e;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.edit:hover {
+  background-color: #34495e;
+}
+
+.delete-button {
+  background-color: #ab130d;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #ab130d;
+}
+
+.add-professor-container {
+  width: 50%;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding-top: 75px;       /* hauteur de la topbar */
+  
+  box-sizing: border-box;  /* pour que padding ne déborde pas */
+}
+
+.add-professor-container h2 {
+  background:  #34495e;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+}
+
+.professor-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.professor-form label {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.professor-form input {
+
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.professor-form input[type="file"] {
+  border: none;
+}
+
+.professor-form-actions {
+  display: flex;
+  margin-left: 145px;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.professor-form-actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+.professor-form-actions .cancel {
+  background-color: #b0b0b0;
+  color: white;
+}
+
+.professor-form-actions button[type="submit"] {
+  background-color: #34495e;
+  color: white;
+}
+
+
+/* Avatar upload */
+.upload-avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.avatar-preview {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  object-fit: cover;
+}
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.main-content {
+  margin-left: 80px; /* pour éviter le chevauchement avec le menu */
+  padding: 20px;
+  width: calc(100% - 80px); /* utilise tout l'espace disponible */
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 80px;
+    width: 100%;
+    padding: 20px;
+
+  }
+
+  .professor-grid {
+    grid-template-columns: 1fr; /* 1 colonne au lieu de 2 */
+    gap: 15px;
+  }
+
+  .add-professor-container {
+    width: 95%;
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  .professor-form-actions {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    gap: 15px;
+  }
+
+  .professor-form-actions button {
+    width: 100%;
+    max-width: 220px;
+  }
+
+  .search-input {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .professor-form input {
+    font-size: 15px;
+  }
+
+  .avatar-preview {
+    width: 100px;
+    height: 100px;
+  }
+
+  .upload-avatar {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .professor-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .professor-image {
+    width: 70px;
+    height: 70px;
+    margin-right: 0;
+  }
+
+  .professor-actions {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}

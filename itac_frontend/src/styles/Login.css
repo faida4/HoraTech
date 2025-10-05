@@ -1,0 +1,148 @@
+/* Mise à jour Login.css */
+.login-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Section gauche avec l'image */
+.left-section {
+    flex: 1;
+    background: url('../images/Designer.jpeg') no-repeat center top 30% / cover;
+
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+
+    background-size: 112%; /* zoom pour recentrer + rogner */
+    background-position: left center; /* décale le focus à gauche */
+  
+  padding-top: 200px; 
+}
+
+
+.right-section {
+    flex: 0.8;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 480px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+
+.login-header {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    width: 80%;
+    max-width: 400px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #0077b6;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 116, 179, 0.3);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0077b6;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #005f87;
+}
+
+button:disabled {
+    background-color: #0848af;
+    cursor: not-allowed;
+}
+
+/* Affichage des erreurs */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Amélioration des liens */
+.login-links {
+    display: flex;
+    flex-direction: column; /* Met les liens l'un en dessous de l'autre */
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.login-links a {
+    font-size: 14px;
+    color: #0848af;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.login-links a:hover {
+    text-decoration: underline;
+}
+
+
+.left-section::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.15); /* léger filtre foncé */
+    z-index: 1;
+  }
+  .welcome-text {
+    position: relative;
+    z-index: 2;
+  }
+  

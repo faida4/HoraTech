@@ -1,0 +1,28 @@
+# ---- Python / Django ----
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.sqlite3
+/media/
+staticfiles/
+
+# ---- Node / React ----
+node_modules/
+itac_frontend/node_modules/
+itac_backend/node_modules/
+dist/
+build/
+*.map
+
+# ---- Secrets / config ----
+.env
+.env.*
+*.env
+
+# ---- OS / éditeurs ----
+.DS_Store
+Thumbs.db
+.vscode/

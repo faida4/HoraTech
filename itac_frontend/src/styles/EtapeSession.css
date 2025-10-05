@@ -1,0 +1,157 @@
+.etape-session-container {
+  padding: 25px;
+  background: #f8fafc;
+  border-radius: 12px;
+}
+
+.etape-session-container h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.add-stage-btn {
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  transition: background 0.2s ease;
+}
+
+.add-stage-btn:hover {
+  background-color: #2f415f;
+}
+
+/* Liste */
+.stage-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.stage-card {
+  background: #ffffff;
+  border-left: 4px solid #2c3e50;
+  padding: 14px 18px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  transition: box-shadow 0.2s ease;
+}
+
+.stage-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.stage-card h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.stage-actions {
+  display: flex;
+  gap: 10px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.stage-card:hover .stage-actions {
+  opacity: 1;
+}
+
+.stage-actions button {
+  background: none;
+  border: none;
+  color: #64748b;
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.2s ease;
+}
+
+.stage-actions button:hover {
+  color: #1e293b;
+}
+
+/* Formulaire Inline */
+.inline-form {
+  background: #f1f5f9;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.inline-form select,
+.inline-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  font-size: 14px;
+  background: white;
+}
+
+.inline-form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.inline-form-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+}
+
+.inline-form-buttons button:first-child {
+  background-color: #1e293b;
+  color: white;
+}
+
+.inline-form-buttons button:last-child {
+  background-color: #e2e8f0;
+  color: #1e293b;
+}
+
+/* Badge */
+.session-badge {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 6px;
+  margin-right: 8px;
+  text-transform: uppercase;
+}
+
+.session-badge.hiver {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+}
+
+.session-badge.automne {
+  background-color: #fef3c7;
+  color: #b45309;
+}
+/* Responsive : écran réduit */
+@media (max-width: 768px) {
+  .etape-session-container {
+    margin-left: 0; /* car la sidebar est probablement cachée */
+    margin-top: 0px; /* garder une marge si la topbar est fixe */
+    padding: 0px;
+  }
+}
