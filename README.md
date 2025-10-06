@@ -45,23 +45,34 @@
 ### 🧭 Tableau de bord & Calendrier
 <p align="center">
   <img src="images/app1.png" width="220"/>
-  <img src="images/app2.png" width="220"/>
-  <img src="images/app3.png" width="220"/>
+  <img src="images/app11.png" width="220"/>
+  <img src="images/app13.png" width="220"/>
+  <img src="images/app5.png" width="220"/>
+  <img src="images/app9.png" width="220"/>
+  <img src="images/app16.png" width="220"/>
 </p>
 <p align="center"><sub>Planification intuitive avec glisser-déposer et aperçu hebdomadaire.</sub></p>
 
 ### ⚠️ Détection de conflits
 <p align="center">
-  <img src="images/app4.png" width="220"/>
-  <img src="images/app5.png" width="220"/>
+  <img src="images/app14.png" width="220"/>
+  <img src="images/app15.png" width="220"/>
+  
 </p>
 <p align="center"><sub>Détection automatique des conflits d’enseignants et chevauchements.</sub></p>
 
 ### 🧩 Gestion des entités
 <p align="center">
+  <img src="images/app2.png" width="220"/>
+  <img src="images/app3.png" width="220"/>
+  <img src="images/app4.png" width="220"/>
+   <img src="images/app6.png" width="220"/>
+  <img src="images/app7.png" width="220"/>
   <img src="images/app8.png" width="220"/>
-  <img src="images/app9.png" width="220"/>
+   <img src="images/app17.png" width="220"/>
+  <img src="images/app18.png" width="220"/>
   <img src="images/app10.png" width="220"/>
+  
 </p>
 <p align="center"><sub>Gestion des professeurs, groupes, programmes et statistiques hebdomadaires.</sub></p>
 
