@@ -27,8 +27,8 @@
 ## ✨ Fonctionnalités principales
 
 - 🖱️ **Glisser-déposer (drag & drop)** pour planifier les cours sur le calendrier  
-- 🧠 **Détection automatique des conflits** (enseignant, groupe, salle, chevauchement)  
-- 🏷️ **Filtres dynamiques** (enseignant, programme, groupe, salle, statut)  
+- 🧠 **Détection automatique des conflits** (enseignant, groupe, chevauchement)  
+- 🏷️ **Filtres dynamiques** (enseignant, programme, groupe)  
 - 👩‍🏫 **Affichage individuel par professeur** avec heures totales et calendrier dédié  
 - 🔔 **Notifications interactives** (React Hot Toast / SweetAlert2)  
 - 🗂️ **Gestion complète des entités** (professeurs, programmes, étapes, groupes, cours)  
@@ -55,7 +55,7 @@
   <img src="images/app4.png" width="220"/>
   <img src="images/app5.png" width="220"/>
 </p>
-<p align="center"><sub>Détection automatique des conflits d’enseignants, salles et chevauchements.</sub></p>
+<p align="center"><sub>Détection automatique des conflits d’enseignants et chevauchements.</sub></p>
 
 ### 🧩 Gestion des entités
 <p align="center">
