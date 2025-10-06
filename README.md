@@ -38,9 +38,9 @@
 
 ---
 
-## 📸 Galerie
 
-## 📸 Galerie
+
+## 🖼️ Aperçu du projet
 
 ### 🧭 Tableau de bord & Calendrier
 <p align="center">
