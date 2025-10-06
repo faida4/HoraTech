@@ -44,11 +44,11 @@
 
 ### 🧭 Tableau de bord & Calendrier
 <p align="center">
+   <img src="images/app9.png" width="220"/>
+   <img src="images/app11.png" width="220"/>
   <img src="images/app1.png" width="220"/>
-  <img src="images/app11.png" width="220"/>
   <img src="images/app13.png" width="220"/>
   <img src="images/app5.png" width="220"/>
-  <img src="images/app9.png" width="220"/>
   <img src="images/app16.png" width="220"/>
 </p>
 <p align="center"><sub>Planification intuitive avec glisser-déposer et aperçu hebdomadaire.</sub></p>
