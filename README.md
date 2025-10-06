@@ -74,7 +74,7 @@
   <img src="images/app10.png" width="220"/>
   
 </p>
-<p align="center"><sub>Gestion des professeurs, groupes, programmes et statistiques hebdomadaires.</sub></p>
+<p align="center"><sub>Gestion des professeurs, groupes et programmes.</sub></p>
 
 
 ---
